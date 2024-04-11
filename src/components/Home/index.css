@@ -1,0 +1,37 @@
+.home-div{
+    width:100vw;
+    border:2px solid orange;
+}
+.home-div2{
+    width:100vw;
+    height: 300px;
+    border:2px solid red;
+}
+.home-ul{
+    display: flex;
+    width:100%;
+    border:2px solid yellow;
+    justify-content: space-between;
+}
+.home-li{
+    border:2px solid green;
+    width:20vw;
+    height: 200px;
+}
+.home-ul2{
+    display: flex;
+    width:100%;
+    border:2px solid yellow;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    text-align:left;
+}
+.home-li2{
+    width:30vw;
+    height: 100px;
+    margin-bottom: 5px;
+    background-color: lightpink;
+}
+.home-name{
+    font-size: 20px;
+}

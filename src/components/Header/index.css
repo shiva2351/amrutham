@@ -1,0 +1,17 @@
+.header{
+    display: flex;
+    border:2px solid red;
+    justify-content: center;
+}
+
+.header-ul{
+    display: flex;
+    border:2px solid green;
+    justify-content: space-between;
+    width:96vw;
+}
+.header-ul2{
+    display: flex;
+    justify-content: space-between;
+    width:30vw;
+}

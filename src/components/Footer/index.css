@@ -1,0 +1,13 @@
+.footer{
+    border:2px solid red;
+    display:flex;
+    width:100vw;
+
+}
+.footer-ul{
+    border:2px solid red;
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+    align-items: center;
+}
