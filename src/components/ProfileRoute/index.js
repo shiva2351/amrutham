@@ -3,6 +3,7 @@ import { Component } from "react";
 import Header from "../Header";
 import Footer from "../Footer";
 import Context from "../../context/Context";
+import Head from "../Head";
 
 class ProfileRoute extends Component{
 
@@ -13,6 +14,7 @@ class ProfileRoute extends Component{
             if (tabId!=="no"){
             changeTab("no")}
             return <div>
+                <Head />
             <Header />
             <div className="profile-card">
                 Profile

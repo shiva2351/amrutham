@@ -4,6 +4,7 @@ import Header from "../Header";
 import Footer from "../Footer";
 import Context from "../../context/Context";
 import "./index.css"
+import Head from "../Head";
 
 class CartRoute extends Component{
 
@@ -14,6 +15,7 @@ class CartRoute extends Component{
             if (tabId!=="no"){
             changeTab("no")}
             return <div>
+                <Head/>
             <Header />
             <div className="cart-card">
             cart</div>

@@ -1,6 +1,7 @@
 import {Component} from "react"
 import Footer from "../Footer"
 import Header from "../Header"
+import Head from "../Head";
 import Context from "../../context/Context"
 
 import "./index.css"
@@ -14,9 +15,10 @@ class AboutRoute extends Component{
             if (tabId!=="us"){
             changeTab("us")}
             return <div>
+                <Head />
             <Header />
             <div className="about-card">
-            abou</div>
+            about</div>
             <Footer />
         </div>
         }}

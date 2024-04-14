@@ -4,6 +4,7 @@ import Header from "../Header";
 import Footer from "../Footer";
 import Context from "../../context/Context";
 import "./index.css"
+import Head from "../Head";
 
 class CourseCard extends Component{
 
@@ -14,6 +15,7 @@ class CourseCard extends Component{
             if (tabId!=="class"){
             changeTab("class")}
             return <div>
+                <Head/>
             <Header />
             <div className="class-card">
             course</div>

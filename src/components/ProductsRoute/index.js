@@ -3,6 +3,7 @@ import Header from "../Header"
 import Footer from "../Footer"
 import Context from "../../context/Context"
 import "./index.css"
+import Head from "../Head"
 
 class ProductsRoute extends Component{
 
@@ -16,6 +17,7 @@ class ProductsRoute extends Component{
             changeTab("pro")}
             console.log('proroute')
             return <div>
+                <Head />
             <Header />
             <div className="pro-card">
             products</div>

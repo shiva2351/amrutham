@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom/cjs/react-router-dom.min"
 import Header from "../Header"
 import "./index.css"
+import Head from "../Head"
 
 
 const RegisterRoute =()=>{
@@ -8,7 +9,7 @@ const RegisterRoute =()=>{
         event.preventDefault()
         console.log("form submited")
     }
-    return <div><Header/>
+    return <div><Head /><Header/>
     <div className="Register-card">
         <form  className="Register-form" onSubmit={submitForm}>
             <input className="Register-input" type="text" placeholder="NAME" />
