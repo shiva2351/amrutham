@@ -15,7 +15,7 @@ class ProfileRoute extends Component{
             return <div>
             <Header />
             <div className="profile-card">
-                profile
+                Profile
             </div>
            
             <Footer />
