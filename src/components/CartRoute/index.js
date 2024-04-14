@@ -5,18 +5,18 @@ import Footer from "../Footer";
 import Context from "../../context/Context";
 import "./index.css"
 
-class CourseCard extends Component{
+class CartRoute extends Component{
 
     render(){
         return  <Context.Consumer>
         {(value)=>{
             const {changeTab,tabId}=value 
-            if (tabId!=="class"){
-            changeTab("class")}
+            if (tabId!=="no"){
+            changeTab("no")}
             return <div>
             <Header />
-            <div className="class-card">
-            course</div>
+            <div className="cart-card">
+            cart</div>
             <Footer />
         </div>
         }}
@@ -24,4 +24,4 @@ class CourseCard extends Component{
     }
 }
 
-export default CourseCard
+export default CartRoute

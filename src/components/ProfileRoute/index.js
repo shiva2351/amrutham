@@ -3,20 +3,21 @@ import { Component } from "react";
 import Header from "../Header";
 import Footer from "../Footer";
 import Context from "../../context/Context";
-import "./index.css"
 
-class CourseCard extends Component{
+class ProfileRoute extends Component{
 
     render(){
         return  <Context.Consumer>
         {(value)=>{
             const {changeTab,tabId}=value 
-            if (tabId!=="class"){
-            changeTab("class")}
+            if (tabId!=="no"){
+            changeTab("no")}
             return <div>
             <Header />
-            <div className="class-card">
-            course</div>
+            <div className="profile-card">
+                profile
+            </div>
+           
             <Footer />
         </div>
         }}
@@ -24,4 +25,4 @@ class CourseCard extends Component{
     }
 }
 
-export default CourseCard
+export default ProfileRoute

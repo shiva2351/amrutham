@@ -1,37 +1,36 @@
-.header{
-    display: flex;
+.head{
+    display: none;
     border:2px solid red;
     justify-content: center;
 }
 @media screen and (max-width:768px){
-    .header{
-        display: none;
+    .head{
+        display:flex;
     }
 }
 
-
-.header-ul{
+.head-ul{
     display: flex;
     border:2px solid green;
     justify-content: space-between;
     width:96vw;
 }
-.header-ul2{
+.head-ul2{
     display: flex;
     justify-content: space-between;
     width:30vw;
     align-items: center;
 }
-.header-logo{
+.head-logo{
     color:black;
     text-decoration: none;
 }
-.Header-pro-card{
+.head-pro-card{
     border:2px solid red;
     padding:0;
     margin:0;
 }
-.Header-pro{
+.head-pro{
     border:2px solid green;
     padding:0;
     margin:0;

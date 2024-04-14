@@ -2,10 +2,18 @@ import { Component } from "react";
 import Header from "../Header";
 import Footer from "../Footer";
 import "./index.css"
+import Context from "../../context/Context";
+import Head from "../Head";
 
 class Home extends Component{
     render(){
-        return <div>
+        return  <Context.Consumer>
+        {(value)=>{
+            const {changeTab,tabId}=value 
+            if (tabId!=="no"){
+            changeTab("no")}
+            return <div>
+            <Head />
             <Header />
             <div className="home-div">
                 <div className="home-div2">
@@ -34,6 +42,9 @@ class Home extends Component{
                 </div>
             </div>
             <Footer /></div>
+        }}
+    </Context.Consumer>
+         
     }
 }
 
