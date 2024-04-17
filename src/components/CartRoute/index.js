@@ -12,8 +12,8 @@ class CartRoute extends Component{
         return  <Context.Consumer>
         {(value)=>{
             const {changeTab,tabId}=value 
-            if (tabId!=="no"){
-            changeTab("no")}
+            if (tabId!=="cart"){
+            changeTab("cart")}
             return <div>
                 <Head/>
             <Header />

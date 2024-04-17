@@ -22,13 +22,13 @@ const PopRoute = () => (
       >
         {close => (
           
-          <ul className="header-ul2">
-          <li><Link to="/register"><button type="button">Join us</button></Link></li>
+          <ul className="pop-ul2">
+          <li><Link to="/register"><HeaderList active={"join"===tabId}>Join us</HeaderList></Link></li>
   <Link to="/courses"><HeaderList active={"class"===tabId}>Classes</HeaderList></Link>
   <Link to="/products"><HeaderList active={"pro"===tabId}>Products</HeaderList></Link>
   <Link to="/about"><HeaderList active={"us"===tabId}>About us</HeaderList></Link>
-  <Link to="/profile"><HeaderList className="Header-pro-card">Profile</HeaderList></Link>
-  <Link to="/cart"><HeaderList>Cart</HeaderList></Link></ul>
+  <Link to="/profile"><HeaderList className="Header-pro-card"  active={"file"===tabId}>Profile</HeaderList></Link>
+  <Link to="/cart"><HeaderList  active={"cart"===tabId}>Cart</HeaderList></Link></ul>
         )}
       </Popup>
     </div>}}</Context.Consumer>

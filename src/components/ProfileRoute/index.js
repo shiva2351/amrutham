@@ -11,8 +11,8 @@ class ProfileRoute extends Component{
         return  <Context.Consumer>
         {(value)=>{
             const {changeTab,tabId}=value 
-            if (tabId!=="no"){
-            changeTab("no")}
+            if (tabId!=="file"){
+            changeTab("file")}
             return <div>
                 <Head />
             <Header />

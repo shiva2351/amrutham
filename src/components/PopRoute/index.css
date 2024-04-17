@@ -14,3 +14,11 @@
     align-items: center;
     justify-content: center;
    }
+   .pop-ul2{
+    height: 60vh;
+    border:2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+   }
