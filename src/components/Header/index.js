@@ -1,9 +1,7 @@
 import {Component} from "react"
 import "./index.css"
 import { Link, withRouter } from "react-router-dom/cjs/react-router-dom.min"
-import { IoMdCart } from "react-icons/io";
 
-import { CgProfile } from "react-icons/cg";
 import Context from "../../context/Context";
 import { HeaderList } from "./Styledcomponents";
 
@@ -18,16 +16,21 @@ class Header extends Component{
            
         return <nav className="header">
                  <ul className="header-ul">
-            <Link to="/"><li className="header-logo">Karo abhayaas</li></Link>
+            <Link to="/"><li className="header-logo"><img alt="" src="https://res.cloudinary.com/delrn2vxa/image/upload/v1713526157/image_45_t8jes5.png"/></li></Link>
 
             <li>
                 <ul className="header-ul2">
-                    <li><Link to="/register"><button type="button">Join us</button></Link></li>
-            <Link to="/courses"><HeaderList active={"class"===tabId}>Classes</HeaderList></Link>
-            <Link to="/products"><HeaderList active={"pro"===tabId}>Products</HeaderList></Link>
+            <Link to="/"><HeaderList active={"class"===tabId}>Home</HeaderList></Link>
+            <Link to="/doctors"><HeaderList active={"pro"===tabId}>Find Doctors</HeaderList></Link>
             <Link to="/about"><HeaderList active={"us"===tabId}>About us</HeaderList></Link>
-            <Link to="/profile"><HeaderList className="Header-pro-card"><CgProfile className="Header-pro" /></HeaderList></Link>
-            <Link to="/cart"><HeaderList><IoMdCart/></HeaderList></Link></ul>
+           </ul>
+            </li>
+            <li>
+                <ul className="header-ul2">
+                    <li><Link to="/login"><button type="button">Login</button></Link></li>
+                    
+                    <li><Link to="/sign-up"><button type="button">Sign Up</button></Link></li>
+            </ul>
             </li>
 
           </ul>
