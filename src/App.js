@@ -4,12 +4,9 @@ import './App.css';
 import Home from './components/Home';
 import LoginRoute from './components/LoginRoute';
 import DoctorsRoute from './components/DoctorsRoute';
-import CourseCard from './components/CourseCard';
 import RegisterRoute from './components/RegisterRoute';
 import AboutRoute from './components/AboutRoute';
 import Context from './context/Context';
-import CartRoute from './components/CartRoute';
-import ProfileRoute from './components/ProfileRoute';
 
 
 class App extends Component {
@@ -26,9 +23,6 @@ class App extends Component {
     <div className='App'>
       <Switch>
       <Route exact path="/" component={Home} />
-      <Route exact path="/courses" component={CourseCard}/>
-      <Route exact path="/cart" component={CartRoute}/>
-      <Route exact path="/profile" component={ProfileRoute}/>
       <Route exact path="/doctors" component={DoctorsRoute}/>
       <Route exact path="/about" component={AboutRoute}/>
       <Route exact path="/login" component={LoginRoute}/>

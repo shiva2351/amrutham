@@ -1,5 +1,4 @@
 import {Component} from "react"
-import Footer from "../Footer"
 import Header from "../Header"
 import Head from "../Head";
 import Context from "../../context/Context"
@@ -19,7 +18,6 @@ class AboutRoute extends Component{
             <Header />
             <div className="about-card">
             about</div>
-            <Footer />
         </div>
         }}
     </Context.Consumer>

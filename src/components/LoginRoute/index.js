@@ -10,7 +10,7 @@ const LoginRoute =()=>{
         event.preventDefault()
         console.log("form submited")
     }
-    return <Context.Consumer>
+    return <Context.Consumer >
     {(value)=>{
         const {changeTab,tabId}=value 
         if (tabId!=="join"){
