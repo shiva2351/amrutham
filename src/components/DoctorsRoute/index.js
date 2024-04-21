@@ -17,24 +17,29 @@ class DoctorsRoute extends Component{
             if (tabId!=="pro"){
             changeTab("pro")}
             console.log('proroute')
-            return <div>
+            return <div className="doc">
                 <Head />
             <Header />
             <div className="doc-card">
-            <div className="doc-card2">
-                <h3>Find expert doctors for  an In-cinic session here</h3>
+                <div className="doc-card2">
+                    <h3 className="doc-para">Find expert doctors for  an In-cinic session here</h3>
+                    <div className="doc-card3">
+                        <div  className="doc-card4">
+                            <FaLocationDot   className="icon-location" /><select className="doc-select">
+                                <option>hyderabad</option>
+                                <option>mumbai</option>
+                                <option>Delhi</option></select></div>
+                        <div   className="doc-card5">
+                            <input className="doc-search" type="search" placeholder="eg: doctor,specialisation,clinic name"/>
+                        <FaArrowRightLong    className="icon-arow"/>
+                        </div>
+                    </div>
+                </div>
                 <div>
-                    <div >
-                        <FaLocationDot /><select>
-                            <option>hyderabad</option>
-                            <option>mumbai</option>
-                            <option>Delhi</option></select></div>
-                    <div><input type="search" placeholder="eg: doctor,specialisation,clinic name"/>
-                    <FaArrowRightLong /></div>
-                    </div></div>
-                <div>
-                    bottom  card</div></div>
-        </div>
+                    bottom  card
+                </div>
+                </div>
+            </div>
         }}
     </Context.Consumer>
         

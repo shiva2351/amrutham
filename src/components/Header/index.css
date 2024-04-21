@@ -1,7 +1,12 @@
 .header{
     display: flex;
-    border:2px solid red;
     justify-content: center;
+    background-color: #FFF7E2;
+height: 94px;
+gap: 0px;
+opacity: 0px;
+
+
    
 }
 @media screen and (max-width:768px){
@@ -13,14 +18,27 @@
 
 .header-ul{
     display: flex;
-    border:2px solid green;
     justify-content: space-between;
     width:96vw;
+    align-items: center;
+    width: Hug (1,232px)px;
+    height: Hug (56px)px;
+    top: 23px;
+    left: 104px;
+    gap: 266px;
+    opacity: 0px;
+
 }
 .header-ul2{
     display: flex;
     justify-content: space-between;
     width:30vw;
+    align-items: center;
+}
+
+.header-ul3{
+    display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 .header-logo{
@@ -40,3 +58,5 @@
     margin:0;
     font-size: 20px;
 }
+
+

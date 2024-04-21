@@ -26,7 +26,7 @@ class Header extends Component{
            </ul>
             </li>
             <li>
-                <ul className="header-ul2">
+                <ul className="header-ul3">
                     <li><Link to="/login"><button type="button">Login</button></Link></li>
                     
                     <li><Link to="/sign-up"><button type="button">Sign Up</button></Link></li>
