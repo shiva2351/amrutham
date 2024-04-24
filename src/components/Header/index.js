@@ -10,6 +10,7 @@ class Header extends Component{
     render(){
         const {active}=this.props
         console.log(active)
+        console.log("jeader")
         
         return <Context.Consumer>{value=>{
             const {tabId}=value
