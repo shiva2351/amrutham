@@ -28,7 +28,9 @@ class DoctorsRoute extends Component{
                             <FaLocationDot   className="icon-location" /><select className="doc-select">
                                 <option>hyderabad</option>
                                 <option>mumbai</option>
-                                <option>Delhi</option></select></div>
+                                <option>Delhi</option>
+                                <option>pune</option>
+                                <option>chennai</option></select></div>
                         <div   className="doc-card5">
                             <input className="doc-search" type="search" placeholder="eg: doctor,specialisation,clinic name"/>
                         <FaArrowRightLong    className="icon-arow"/>
