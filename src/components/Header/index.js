@@ -14,7 +14,7 @@ class Header extends Component{
         return <Context.Consumer>{value=>{
             const {tabId}=value
            
-        return <nav className="hea">
+        return <nav className="header">
                  <ul className="header-ul">
             <Link to="/"><li className="header-logo"><img alt="" src="https://res.cloudinary.com/delrn2vxa/image/upload/v1713526157/image_45_t8jes5.png"/></li></Link>
 
