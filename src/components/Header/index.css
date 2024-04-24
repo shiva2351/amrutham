@@ -1,2 +1,44 @@
 
 
+.header-ul{
+    display: flex;
+    justify-content: space-between;
+    width:96vw;
+    align-items: center;
+    width: Hug (1,232px)px;
+    height: Hug (56px)px;
+    top: 23px;
+    left: 104px;
+    gap: 266px;
+    opacity: 0px;
+
+}
+.header-ul2{
+    display: flex;
+    justify-content: space-between;
+    width:30vw;
+    align-items: center;
+}
+
+.header-ul3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-logo{
+    color:black;
+    text-decoration: none;
+    color:green;
+    font-weight: bold;
+}
+.Header-pro-card{
+    border:2px solid red;
+    padding:0;
+    margin:0;
+}
+.Header-pro{
+    border:2px solid green;
+    padding:0;
+    margin:0;
+    font-size: 20px;
+}
