@@ -15,7 +15,6 @@ height: Hug (54px)px;
 top: 121px;
 left: 385px;
 gap: 8px;
-opacity: 0px;
 
 display: flex;
 
@@ -44,7 +43,6 @@ padding: 4px 12px 4px 12px;
 gap: 105px;
 border-radius: 10px;
 border: 1px ;
-opacity: 0px;
 
 display: flex;
 align-items: center;
@@ -55,7 +53,6 @@ align-items: center;
 height: 221px;
 top: 94px;
 gap: 0px;
-opacity: 0px;
 
 }
 .doc-para{
@@ -71,7 +68,6 @@ text-align: center;
     width: 119px;
 height: 24px;
 gap: 0px;
-opacity: 0px;
 border:0;
 
 }
@@ -79,7 +75,6 @@ border:0;
     width: 100%;
 height: 24px;
 gap: 0px;
-opacity: 0px;
 border:0;
 
 }
