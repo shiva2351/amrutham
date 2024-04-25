@@ -39,7 +39,7 @@ I build react website by dividing each page in to multi components. (Header,logi
 - firstly created reactjs app using npx create-react-app myapp (in vs code).
 - installed some dependencies like react-icons, styled-components..
 
-# Assets (ICONS,components)
+# Assets (ICONS)
 
 I am install react-icons(npm install react-icons) for using reusable code for icons.( location icon, arrow icon )
 
