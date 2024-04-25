@@ -1,4 +1,4 @@
-# Educational App
+# Doctor App
 
 I build react website by dividing each page in to multi components. (Header,loginRoute,DoctorsRoute...etc)
 
